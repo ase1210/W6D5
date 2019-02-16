@@ -1,0 +1,56 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+body {
+  background-image: url(https://ichef.bbci.co.uk/images/ic/640x360/p05tnhkk.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100px;
+}
+.clockTitle {
+  margin: auto;
+  align-items: center;
+}
+
+.clock {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  color: orange;
+  border: 10px solid black;
+  background: white;
+}
+
+.time {
+  font-family: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-family: inherit;
+  display: flex;
+  justify-content: space-between;
+}
